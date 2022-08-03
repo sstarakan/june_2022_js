@@ -1,0 +1,10 @@
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.user-block{
+    min-width: 45%;
+    margin: 10px;
+}
