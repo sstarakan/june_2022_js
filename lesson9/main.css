@@ -1,0 +1,49 @@
+/*first task styles*/
+.family{
+    display: flex;
+    flex-wrap: wrap;
+}
+.member{
+    width: 40%;
+    min-height: 500px;
+    margin: 20px;
+    padding: 10px;
+    border: cornflowerblue solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.member img{
+    width: 200px;
+    height: 400px;
+}
+
+/*second task styles*/
+
+.main-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.course-wrap{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    border: darkred solid 2px;
+    margin: 20px;
+    padding: 10px;
+}
+.title-h2{
+    text-align: center;
+    width: 100%;
+}
+.title-h3-duration{
+    width: 50%;
+}
+
+.collapse{
+    display: none;
+}
+
+.th-style{
+    border: black solid 1px;
+}
